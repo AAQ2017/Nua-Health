@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "82528303680",
+    "firebase_url": "https://muahealth-3eda1-default-rtdb.firebaseio.com",
+    "project_id": "muahealth-3eda1",
+    "storage_bucket": "muahealth-3eda1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82528303680:android:f8b5e057329704fac87da5",
+        "android_client_info": {
+          "package_name": "com.example.nua_health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82528303680-rq8tv93pmineklo6tv37os8f7rbkir5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq_7K0vw71wXf1lo80YvDL4NIZIAG8DRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82528303680-rq8tv93pmineklo6tv37os8f7rbkir5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
