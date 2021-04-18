@@ -37,8 +37,8 @@ class _LandingScreenState extends State<LandingScreen> {
               alignment: Alignment(0,0.25),
               child: Container(
                 padding: EdgeInsets.symmetric(vertical: 45),
-                width: MediaQuery.of(context).size.width * 0.3,
-                height: MediaQuery.of(context).size.height * 0.17,
+                width: MediaQuery.of(context).size.width * 0.35,
+                height: MediaQuery.of(context).size.height * 0.18,
                 child: RaisedButton(
                   elevation: 5,
                   onPressed: () {
@@ -46,7 +46,7 @@ class _LandingScreenState extends State<LandingScreen> {
                   },
                   padding: EdgeInsets.all(5),
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10.0),
+                    borderRadius: BorderRadius.circular(20.0),
                   ),
                   color: Color(0xFFF0F0F0),
                   child: Text(
@@ -67,8 +67,8 @@ class _LandingScreenState extends State<LandingScreen> {
               alignment: Alignment(0,0.5),
               child: Container(
                 padding: EdgeInsets.symmetric(vertical: 45),
-                width: MediaQuery.of(context).size.width * 0.3,
-                height: MediaQuery.of(context).size.height * 0.17,
+                width: MediaQuery.of(context).size.width * 0.35,
+                height: MediaQuery.of(context).size.height * 0.18,
                 child: RaisedButton(
                   elevation: 5,
                   onPressed: () {
@@ -76,7 +76,7 @@ class _LandingScreenState extends State<LandingScreen> {
                   },
                   padding: EdgeInsets.all(5),
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10.0),
+                    borderRadius: BorderRadius.circular(20.0),
                   ),
                   color: Color(0xFF00EFE1),
                   child: Text(

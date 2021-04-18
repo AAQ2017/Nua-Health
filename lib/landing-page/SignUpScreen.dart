@@ -5,8 +5,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'LandingScreen.dart';
-import 'LoginScreen.dart';
+import 'package:nua_health/landing-page/LandingScreen.dart';
+import 'package:nua_health/landing-page/LoginScreen.dart';
 
 
 class SignUpScreen extends StatefulWidget {
@@ -91,7 +91,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
           children: <Widget> [
             // Logo
             Align(
-              alignment: Alignment(0,-0.5),
+              alignment: Alignment(0,-0.75),
               child: ColorFiltered(
                 colorFilter: ColorFilter.mode(Colors.white, BlendMode.modulate),
                 child: Image.asset(
@@ -100,12 +100,26 @@ class _SignUpScreenState extends State<SignUpScreen> {
               ),
             ),
 
+            // Sign Up Text
+            Align(
+              alignment: Alignment(0,-0.3),
+              child: Text(
+                "SIGN UP",
+                textAlign: TextAlign.center,
+                style: GoogleFonts.roboto(
+                    textStyle: TextStyle(
+                      color: Colors.white,
+                      fontSize: 20,
+                      fontWeight: FontWeight.w500,
+                    )
+                ),
+              ),
+            ),
+
             // Form
             Form(
               key: formKey,
-
               child: Stack(children: <Widget>[
-
 
                 // Name
                 Align(
@@ -123,7 +137,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
                     child: TextFormField(
 
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(color: Colors.black),
                       decoration: InputDecoration(
                         labelText: "Name",
                         labelStyle: TextStyle(color:Colors.blueGrey),
@@ -173,7 +187,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
                     child: TextFormField(
 
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(color: Colors.black),
                       decoration: InputDecoration(
                         labelText: "Email",
                         labelStyle: TextStyle(color:Colors.blueGrey),
@@ -217,7 +231,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
                     child: TextFormField(
 
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(color: Colors.black),
                       decoration: InputDecoration(
                         labelText: "Password",
                         labelStyle: TextStyle(color:Colors.blueGrey),
@@ -260,7 +274,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
                     child: TextFormField(
 
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(color: Colors.black),
                       decoration: InputDecoration(
                         labelText: "Confirm Password",
                         labelStyle: TextStyle(color:Colors.blueGrey),
@@ -362,6 +376,39 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
 
               ],),
+            ),
+
+
+            // Design - Top Right
+            Container (
+              child: Align (
+                alignment: Alignment(1,-1),
+
+                child: ClipPath(
+                  clipper: OvalLeftBorderClipper(),
+                  child: Container(
+                    height: MediaQuery.of(context).size.height * 0.05,
+                    width: MediaQuery.of(context).size.height * 0.2,
+                    color: Color(0xFFFFFFFF),
+                  ),
+                ),
+              ),
+            ),
+
+            // Design - Bottom Left
+            Container (
+              child: Align (
+                alignment: Alignment(-1,1),
+                child: ClipPath(
+                  clipper: OvalRightBorderClipper(),
+                  child: Container(
+                    height: MediaQuery.of(context).size.height * 0.05,
+                    width: MediaQuery.of(context).size.height * 0.20,
+                    color: Color(0xFFFFFFFF),
+
+                  ),
+                ),
+              ),
             ),
 
 
