@@ -10,7 +10,7 @@ The **Home** tab (represented by a home icon) contains your personal information
 The **In Your Area** tab (represented by a hospital icon) contains vital resources to your nearest clinic, free clinics in your area, and important hotlines that are available to you 24/7.
 The **Education** tab (represented by a book icon) holds a wealth of knowledge about common ailments or conditions you may be experiencing or want to know more about. 
 The **Live Chat** tab (represented by a chat box icon) is a direct link to a healthcare professional with whom you can discuss any concerns you may be having.
-Finally, the **Quiz ** tab (represented by a clipboard icon) is a general screening for those who feel unsure about seeking resources for a concern they may have. This screening is in no way intended to be equivalent to a medical consultation, and includes a disclaimer to call the emergency number if there is a dire need, but it can help advise those as to how urgently they should see a provider.
+Finally, the **Quiz** tab (represented by a clipboard icon) is a general screening for those who feel unsure about seeking resources for a concern they may have. This screening is in no way intended to be equivalent to a medical consultation, and includes a disclaimer to call the emergency number if there is a dire need, but it can help advise those as to how urgently they should see a provider.
 
 ## How we built it
 This accommodating health app was designed and prototyped in Figma, with front-end done in Flutter and Dart, and backend being connected to Google's Firebase. 
