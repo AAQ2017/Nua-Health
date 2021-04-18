@@ -1,6 +1,35 @@
-# nua_health
+# Nua Health
+A Community Health App
 
-A new Flutter application.
+## Purpose
+
+
+
+
+
+## Description of App
+
+
+
+
+
+## Technologies Used
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Getting Started
 
